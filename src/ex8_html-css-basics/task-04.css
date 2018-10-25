@@ -1,0 +1,40 @@
+div {
+    width: 400px;
+    height: 150px;
+    margin: 20px;
+    padding: 10px;
+    text-align:  center;
+    border: 3px solid rgb(164, 221, 214); 
+    border-radius: 10px
+}
+div:hover {
+    outline: 5px solid rgb(102, 119, 218);
+}
+@font-face {
+    font-family: "Action_Man_Italic";
+    src: url(Action_Man_Italic.ttf);
+}
+.class1 {
+    background: url(fond.jpg);
+    font-family: "Times New Roman";
+    color:#FFF;
+    font-weight: bold;
+    text-decoration: line-through;
+}
+.class2 {
+    background: #008B8B;
+    font-size: 0.5in;
+    font-family: Arial, "Times New Roman", sans-serif;
+    font-style: oblique;
+}
+.class3 {
+    background: rgb(205, 243, 99);
+    font-size: 200%;
+    font-family: "Action_Man_Italic";
+}
+.class4 {
+    background: rgb(152, 243, 99);
+    font-size: 2em;
+    font-family: "Action_Man_Italic";
+    font-variant:small-caps;
+}

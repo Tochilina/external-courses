@@ -1,0 +1,29 @@
+div {
+    width: 150px;
+    height: 100px;
+    margin: 20px;
+    padding: 10px;
+    background: rgb(164, 221, 214);
+    text-align:  center;
+}
+
+#method1 {
+    border: 6px solid rgb(240, 243, 74); 
+}
+#method2 {
+    outline: 6px solid rgb(240, 243, 74); 
+}
+#method3 {
+	box-shadow: 0 0 7px 6px rgb(240, 243, 74);
+}
+#method4 {
+    outline: 3px solid  rgb(240, 243, 74); 
+    border: 3px solid rgb(255, 255, 255); 
+    border-radius: 10px; 
+}
+#method5 {
+    border: 3px solid rgb(255, 255, 255); 
+}
+#method5:hover {
+    outline: 3px solid rgb(240, 243, 74);
+   }
