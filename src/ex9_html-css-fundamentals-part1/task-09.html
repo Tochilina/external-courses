@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Form</title>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="task-09.css">
+    </head>
+    <body>
+        <form class="form" action="#" method="post">
+            <fieldset>
+                <div class="header">
+                    <div>Form Here</div>
+                    <div>* required fields</div>
+                    <hr>   
+                </div>
+                <div class="column">
+                    <div class="col1">
+                        <label for="username">Name:</label>
+                        <label for="email">Email:</label>
+                        <label for="website">Website:</label>
+                        <label for="message">Message:</label>
+                    </div>
+
+                    <div class="col2">
+                        <input  type="text" name="username" id="username" placeholder="placeholder text" required>
+                        <input  type="email" name="email" id="email" placeholder="placeholder text" required>
+                        <input  type="url" name="website" id="website" placeholder="placeholder text" required>
+                        <textarea name="message" id="message"></textarea>
+                    </div>
+
+                    <div class="col3">
+                        <div>Form field hint</div>
+                        <div>Form field hint</div>
+                    </div>
+                </div>
+
+                <div class="footer">
+                    <button type="submit">
+                        <strong>Submit</strong> 
+                    </button>
+                </div>
+            </fieldset>
+        </form>
+    </body>
+</html>
