@@ -1,0 +1,15 @@
+body{
+    font-family: Arial,  sans-serif;
+}
+
+.form{
+    width:70rem;
+    margin: 1rem auto;
+}
+/* #password{
+    margin-left: 7rem;
+} */
+label{
+    display: block;
+    margin: 1rem 0;
+}

@@ -1,0 +1,39 @@
+#tableSecond{
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 1rem auto;
+    background: rgb(252, 252, 252);
+    color:rgb(87, 91, 99);
+    border-spacing: 0.2rem;
+    text-align: left;
+}
+
+#tableSecond th{
+    padding: 0.4rem;
+} 
+#tableSecond td{
+    padding: 0.9rem;
+}
+
+#header{
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(227,234,243);
+    font-size: 9px;
+}
+
+#tableSecond tr:not(#header):nth-child(2n){
+    background: rgb(242,246,250);
+}
+
+#tableSecond tr:not(#header):nth-child(2n+1){
+    background: rgb(222, 229, 238);
+}
+
+#tableSecond tr td:first-child{
+    text-transform: capitalize;
+}
+
+#tableSecond tr:not(#header):hover{
+    background: rgb(198, 206, 216);
+}
