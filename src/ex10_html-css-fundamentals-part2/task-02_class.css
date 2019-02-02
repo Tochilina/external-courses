@@ -1,0 +1,38 @@
+.tableFirst {
+    font-family: Arial, sans-serif;
+    font-size: 12px;
+    margin: 3rem auto;
+    background: rgb(252, 252, 252);
+    color:rgb(87, 91, 99);
+    border-spacing: 0.2rem;
+    text-align: left;
+}
+
+.tableFirst th{
+    padding: 0.4rem;
+} 
+.tableFirst td{
+    padding: 0.9rem;
+}
+
+.header{
+    text-transform: uppercase;
+    text-align: center;
+    background: rgb(227,234,243);
+    font-size: 9px;
+}
+.bright{
+    background: rgb(242,246,250);
+}
+
+.dark{
+    background: rgb(222, 229, 238);
+}
+
+.bright td:first-child, .dark td:first-child{
+    text-transform: capitalize;
+}
+
+.tableFirst tr:not(.header):hover{
+    background: rgb(198, 206, 216);
+}
