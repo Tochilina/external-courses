@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,600,700,800');
 *{
     outline: none;
 }
@@ -22,7 +23,9 @@ header{
     margin: 0 auto;
     padding: 0 1.5rem;
 }
-/* Контакты пропадают при уменьшении размера,как сделать чтобы не пропадали? Что не так? */
+/* ?Контакты пропадают при уменьшении размера,как сделать чтобы не пропадали? Что не так? */
+/* ? Стоит ли убирать в form radiobatton */
+/* ? Стоит ли вообще  делать через  radiobatton */
 .top_header{
     width: 85vw; 
     margin: 3rem auto;
@@ -122,6 +125,10 @@ header{
 .bottom_header nav{
     line-height: 27px;
 }
+.burger, .bottom_header img{
+    display:none;
+}
+
 nav ul{
     width: 100%;
     list-style: none;
@@ -321,6 +328,7 @@ footer{
     display: flex;
     align-items: flex-start;
     justify-content: space-around;
+    margin-bottom: 8rem; 
 }
 
 footer article{
@@ -349,3 +357,66 @@ footer img{
 Я не могу понять откуда взялось. */
 /*14. При переводе из px в rem нужно знать сколько задан размер шрифта в html.
 Если я его не задаю то как узнать какое базовое значение? Разное ли оно в разных браузерах? */
+@media (max-width: 1200px) {
+    .top_header{
+        display: none;
+    }
+
+    .burger{
+        display: block;
+    }
+    .burger span {
+        display: block;
+        width: 51px;
+        height: 8px;
+        margin: 0 0 12px;
+        background-color: #2C87BE;
+      }
+    .burger span:last-child {
+        margin: 0;
+    }
+    .bottom_header{
+        margin-top: 0rem;
+    }
+
+    .bottom_header nav ul {
+        display: none;
+    }
+
+    .bottom_header img{
+        display: block;
+    }
+    .bottom_header .search input {
+        margin-right: 0rem;
+    }
+    main{
+
+    }
+    main .slider{
+        display: none;
+    }
+    main .words {
+        text-align: center;
+        font-size: 42px;
+      }
+      main .words h3{
+        font-size: 32px;
+    }
+    
+    footer {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+
+    footer article>div{
+        width: 50rem;
+    }
+}
+/* 15. Правильный бургер? */
+/* 16. Отцентрировать logo? */
+/* 17. margin-right: 0rem вообще жесть? */
+/* 18. Буквы в свободном полете */
+/* 19. Приближение фона нужно? */
+/* 20. Задавать font size  в px? */
+/* 21. Встроенные валидаторы? */
